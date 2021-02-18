@@ -2,6 +2,8 @@
 Sample project for testing jobrunr kotlin support status
 
 ## Running
-- run `docker-compose up -d` to start the database
-- start the application via `./gradlew bootRun`
-- make test requests [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/c383593f57f1daabe5ca)
+- Run `docker-compose up -d postgres-db` to start the database.
+- Start the application via `./gradlew bootRun`.
+- Make test requests
+  
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/c383593f57f1daabe5ca)
