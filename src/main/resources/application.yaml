@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: default
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/job_test?user=postgres&password=postgres}
+
+
+org:
+  jobrunr:
+    background-job-server:
+      enabled: true
+    dashboard:
+      enabled: true
