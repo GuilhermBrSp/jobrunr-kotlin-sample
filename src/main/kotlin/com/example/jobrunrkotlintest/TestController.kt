@@ -15,8 +15,9 @@ class TestController(
 
     @PostMapping("start-background-job-with-kotlin")
     fun startBackgroundJobWithKotlin(): ResponseEntity<String> {
-        val id  = KotlinJobRunner(jobScheduler).enqueueJob()
-        return ResponseEntity.ok(id.toString())
+        KotlinJobRunner(jobScheduler).enqueueSimpleJob()
+        KotlinJobRunner(jobScheduler).enqueueJobWithInstanceInjection()
+        return ResponseEntity.ok("Ok")
     }
 
     @PostMapping("start-background-job-with-java")
