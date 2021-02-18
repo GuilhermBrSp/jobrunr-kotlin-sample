@@ -32,8 +32,8 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation ("com.fasterxml.jackson.core:jackson-databind:2.11.0")
     implementation("org.ow2.asm:asm-util:9.1")
-    implementation("org.jobrunr:jobrunr:1.2.5")
-    implementation("org.jobrunr:jobrunr-spring-boot-starter:1.2.5")
+    implementation("org.jobrunr:jobrunr:1.0.0-SNAPSHOT")
+    implementation("org.jobrunr:jobrunr-spring-boot-starter:1.0.0-SNAPSHOT")
     implementation("org.jobrunr:jobrunr-kotlin-support:1.0.0-SNAPSHOT")
 }
 
