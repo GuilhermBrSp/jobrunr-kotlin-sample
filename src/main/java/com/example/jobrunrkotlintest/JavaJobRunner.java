@@ -1,8 +1,7 @@
-package br.com.creditas;
+package com.example.jobrunrkotlintest;
 
 import org.jobrunr.jobs.JobId;
 import org.jobrunr.scheduling.JobScheduler;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component

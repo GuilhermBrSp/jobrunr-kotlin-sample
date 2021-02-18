@@ -1,6 +1,5 @@
 package com.example.jobrunrkotlintest
 
-import br.com.creditas.JavaJobRunner
 import org.jobrunr.scheduling.JobScheduler
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.PostMapping
